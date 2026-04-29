@@ -4,6 +4,10 @@ An end-to-end AI-powered email triage system that automatically reads incoming e
 
 Built as a portfolio project to demonstrate real-world automation skills across LLM integration, workflow orchestration, and API development.
 
+> ⚠️ **Note:** The `workflow.json` contains references to 
+> personal credentials (Gmail, Google Sheets, Slack). 
+> After importing into n8n, reconnect each node with 
+> your own credentials before running.
 ---
 
 ## What It Does
@@ -206,7 +210,7 @@ docker run -it --rm \
 
 Open `http://localhost:5678` and import the workflow.
 
-> The `workflow.json` file can be imported directly into n8n —
+> The `workflow.json` file can be imported directly into n8n, 
 > no need to rebuild the workflow manually.
 
 ---
