@@ -42,7 +42,12 @@ Structured JSON Output
     └──▶ Slack Alert (blockers + high priority only)
 ```
 
+## Workflow
+
+![n8n Workflow](assets/workflow.png)
+
 ---
+
 
 ## Extracted Fields
 
