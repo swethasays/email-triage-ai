@@ -44,9 +44,9 @@ CSV_COLUMNS = [
 # ---------------------------------------------------------------------------
 
 SYSTEM_PROMPT = """
-You are a project management assistant for a construction company.
+You are an intelligent email triage assistant.
 
-Your job is to read incoming emails and extract key information from them.
+Your job is to read incoming business emails and extract key information from them regardless of industry — construction, legal, logistics, finance, healthcare, or any other domain.
 
 Always reply with a single valid JSON object. No explanation. No markdown. No extra text.
 
