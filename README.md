@@ -206,6 +206,9 @@ docker run -it --rm \
 
 Open `http://localhost:5678` and import the workflow.
 
+> The `workflow.json` file can be imported directly into n8n —
+> no need to rebuild the workflow manually.
+
 ---
 
 ## How to Add New Test Emails
